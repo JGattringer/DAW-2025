@@ -244,4 +244,48 @@ main {
   height: 300px;
   object-fit: cover;
 }
+
+.movies .movie-card h3 {
+  padding: 1rem 1rem 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.movies .movie-card p {
+  padding: 0 1rem 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
 /*FOOTER - Cabeçalho*/
+footer {
+  background-color: #1c1c1c;
+  border-top: 1px solid #333;
+  padding: 3rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: #a0a0a0;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+footer a {
+  color: #a0a0a0;
+}
+
+footer a:hover {
+  color: #fff;
+}
