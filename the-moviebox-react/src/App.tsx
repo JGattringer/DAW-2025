@@ -1,6 +1,7 @@
 import { Header } from "./components/layout/header";
 import { Footer } from "./components/layout/footer";
 import { Navbar } from "./components/layout/navbar";
+import { Highlight } from "./components/layout/highlight";
 import { MovieContent } from "./cases/movies/components/movie-content";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <main>
+        <Highlight />
         <Navbar />
         <MovieContent />
       </main>
